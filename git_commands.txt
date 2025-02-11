@@ -1,0 +1,20 @@
+1. git init     --> to initiate empty git repository
+2. git status   --> to check status  version control system
+3. git add      --> to add a file from untracked to staged status
+4. git commit -M "message"      --> to save the file on git from staged to tracked status
+5. git restore      --> to restore the deleted file
+
+
+steps I had taken to add repository from vs code to git hub through CLI(command line interface)
+1. first check status with git status
+    PS E:\github-repository> git status
+On branch master
+nothing to commit, working tree clean
+2. then use command git remote add origin <github_account_link>
+3. git remote -v   ---> to verify remote link is added or not 
+	it will show same origin url-link for push and fetch
+4. git branch   ---> to check the branch name i.e master/main
+5. if you have to give access of your github account from the local to repository. you need to configure it with github
+   with the hwlp of PAT (personal access token)
+6. git remote set-url origin https://PAT_token@github.com/(your github url)
+7. git remote -v   ---> to verify the remote
