@@ -23,6 +23,10 @@ nothing to commit, working tree clean
 git push origin master      --> to push the updated file to github repository from local file system
 git pull origin master      --> to pull the updated from the github repository to local file system
 
+
+#if you want to push the new branch in github then 
+git push origin <new branch name>
+
 this is some new changes
 
 
