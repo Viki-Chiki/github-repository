@@ -22,5 +22,7 @@ nothing to commit, working tree clean
 
 git push origin master      --> to push the updated file to github repository
 
+this is some new changes
+
 
 
