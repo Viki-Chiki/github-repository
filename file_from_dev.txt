@@ -1,3 +1,5 @@
 this file is created in dev branch
 
 Windows Command Prompt (cmd)
+dir /a → Lists all files, including hidden ones.
+dir /a:h → Lists only hidden files.
