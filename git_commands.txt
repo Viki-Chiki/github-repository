@@ -3,6 +3,7 @@
 3. git add      --> to add a file from untracked to staged status
 4. git commit -M "message"      --> to save the file on git from staged to tracked status
 5. git restore      --> to restore the deleted file
+6. git log      --> to check history of changes (commit)
 
 
 steps I had taken to add repository from vs code to git hub through CLI(command line interface)
@@ -18,3 +19,5 @@ nothing to commit, working tree clean
    with the hwlp of PAT (personal access token)
 6. git remote set-url origin https://PAT_token@github.com/(your github url)
 7. git remote -v   ---> to verify the remote
+
+
