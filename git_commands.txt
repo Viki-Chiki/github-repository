@@ -20,7 +20,8 @@ nothing to commit, working tree clean
 6. git remote set-url origin https://PAT_token@github.com/(your github url)
 7. git remote -v   ---> to verify the remote
 
-git push origin master      --> to push the updated file to github repository
+git push origin master      --> to push the updated file to github repository from local file system
+git pull origin master      --> to pull the updated from the github repository to local file system
 
 this is some new changes
 
